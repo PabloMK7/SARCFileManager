@@ -1,5 +1,9 @@
 # SARC File Manager
-A tool for managing files inside SARC archives (.sarc or .szs files).
+A python 2.7 script for managing files inside SARC archives (.sarc or .szs files).
+
+## Usage
+
+SARC_filemanager.py SARC_file_path -a new_file
 
 ## Features
 - Add new file name entries to existing SARC files. (This will **ONLY** generate the file entry, with a size of 1 byte. Use better tools such as Every File Explorer to replace the new added entry with a proper file.)
